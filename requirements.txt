@@ -1,0 +1,5 @@
+perth
+s3tokenizer
+conformer
+resemble-perth
+transformers==4.52
