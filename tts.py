@@ -28,6 +28,6 @@ class MedadTTS:
         }
         settings.update(options)
 
-        wav = self.multilingual_model.generate(prompt, **options)
+        wav = self.multilingual_model.generate(prompt, **settings)
 
         return wav

@@ -8,7 +8,7 @@ pip install chatterbox-tts --no-deps
 pip install -r requirements.txt
 ```
 
-Instantiate the MedadTTS class and run the pipe to get a wav with 16000 sample rate:
+Instantiate the MedadTTS class and run the pipe to get a wav with 24000 sample rate:
 
 ```python
 from medad_tts import MedadTTS
@@ -21,7 +21,7 @@ wav = pipe(prompt)
 you can save the wav file:
 ```
 import torchaudio as ta
-ta.save("test.wav", wav, 16000)
+ta.save("test.wav", wav, 24000)
 ```
 
 you can also pass more optional settings to the pipe:
